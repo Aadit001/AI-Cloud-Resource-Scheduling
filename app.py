@@ -132,8 +132,13 @@ def run_simulation_logic(mode, progress_bar, status_text):
 
 # --- MAIN DASHBOARD LAYOUT ---
 st.title("☁️ AI-Driven Cloud Resource Scheduling")
-st.markdown("### Interactive Thesis Dashboard")
+st.markdown("### M.tech Thesis Project Dashboard")
 st.markdown("Compare **Standard Round Robin** vs. **Proposed AI (LSTM+DQN)** scheduling in real-time.")
+
+
+# --- ADDED DETAILS HERE ---
+st.markdown("##### **Name:** Aditya Tiwari  |  **Roll No:** 24A07RES18")
+st.markdown("---")  # Adds a nice divider line
 
 if st.button("🚀 RUN SIMULATION"):
     # Layout Columns
